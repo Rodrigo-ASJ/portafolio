@@ -1,0 +1,17 @@
+app = "portafolio-api"
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 3001
+  force_https = true
+
+[[env]]
+  key = "PORT"
+  value = "3001"
+
+[[env]]
+  key = "NODE_ENV"
+  value = "production"

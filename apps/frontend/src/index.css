@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-body: #0c0c0d;
+  --color-bg-surface: #1b1b1d;
+  --color-bg-panel: #2a2a2e;
+  --color-bg-toolbar: #38383d;
+  --color-bg-hover: #4a4a4f;
+  --color-text-primary: #b1b1b3;
+  --color-text-secondary: #737373;
+  --color-text-muted: #5c5c5f;
+  --color-accent-blue: #45a1ff;
+  --color-accent-blue-bright: #0a84ff;
+  --color-accent-green: #70bf53;
+  --color-accent-purple: #6b7abb;
+  --color-accent-orange: #d96629;
+  --color-accent-red: #eb5368;
+  --color-accent-pink: #df80ff;
+  --color-selection: #1d4f73;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+::selection {
+  background-color: var(--color-selection);
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-body);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+
+/* Scrollbar estilo Firefox DevTools */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-body);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-bg-hover);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
