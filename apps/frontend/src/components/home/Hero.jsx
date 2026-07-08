@@ -5,7 +5,7 @@ const codeLines = [
   { text: 'import { Developer } from "./portafolio"', color: 'text-accent-purple', delay: 0 },
   { text: '', color: '', delay: 0.15 },
   { text: 'const dev = new Developer(', color: 'text-accent-blue', delay: 0.3 },
-  { text: '  name: "Tu Nombre",', color: 'text-text-primary', delay: 0.45 },
+  { text: '  name: "Rodrigo",', color: 'text-text-primary', delay: 0.45 },
   { text: '  role: "Full-Stack Developer",', color: 'text-text-primary', delay: 0.6 },
   { text: '  stack: ["React", "Node", "MongoDB"],', color: 'text-accent-green', delay: 0.75 },
   { text: '  location: "Tu Ciudad",', color: 'text-text-primary', delay: 0.9 },
