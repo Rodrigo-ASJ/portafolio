@@ -60,7 +60,7 @@ export default function Contact() {
 
               <div className="space-y-3">
                 <div className="flex items-center gap-3 text-sm">
-                  <span className="text-accent-green font-mono">$ Teléfono:</span>
+                  <span className="text-accent-green font-mono">$ email:</span>
                   <span className="text-text-secondary">arxrjf@gmail.com</span>
                 </div>
                 {/*
