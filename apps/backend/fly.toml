@@ -1,17 +1,22 @@
-app = "portafolio-api"
-primary_region = "iad"
+# fly.toml app configuration file generated for portafolio-api on 2026-07-08T10:52:00+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'portafolio-api'
+primary_region = 'iad'
 
 [build]
-  dockerfile = "Dockerfile"
 
 [http_service]
   internal_port = 3001
   force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
 
-[[env]]
-  key = "PORT"
-  value = "3001"
-
-[[env]]
-  key = "NODE_ENV"
-  value = "production"
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
