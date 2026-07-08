@@ -54,18 +54,20 @@ export default function Contact() {
             {/* Left - Contact info */}
             <div className="space-y-6">
               <p className="text-text-secondary">
-                ¿Tienes un proyecto en mente? Estoy abierto a colaborar y nuevas oportunidades.
+                <strong>¿Tienes un proyecto en mente?</strong>
+                <span className="block">Estoy abierto a colaborar y nuevas oportunidades.</span>
               </p>
 
               <div className="space-y-3">
                 <div className="flex items-center gap-3 text-sm">
-                  <span className="text-accent-blue font-mono">$</span>
-                  <span className="text-text-secondary">tu@email.com</span>
+                  <span className="text-accent-green font-mono">$ Teléfono:</span>
+                  <span className="text-text-secondary">arxrjf@gmail.com</span>
                 </div>
+                {/*
                 <div className="flex items-center gap-3 text-sm">
                   <span className="text-accent-blue font-mono">$</span>
                   <span className="text-text-secondary">+34 123 456 789</span>
-                </div>
+                </div> */}
               </div>
 
               <div className="flex gap-3">
