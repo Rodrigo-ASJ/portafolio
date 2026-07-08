@@ -8,7 +8,7 @@ const codeLines = [
   { text: '  name: "Rodrigo",', color: 'text-text-primary', delay: 0.45 },
   { text: '  role: "Full-Stack Developer",', color: 'text-text-primary', delay: 0.6 },
   { text: '  stack: ["React", "Node", "MongoDB"],', color: 'text-accent-green', delay: 0.75 },
-  { text: '  location: "Tu Ciudad",', color: 'text-text-primary', delay: 0.9 },
+  { text: '  location: "Barcelona",', color: 'text-accent-pink', delay: 0.9 },
   { text: '})', color: 'text-accent-blue', delay: 1.05 },
   { text: '', color: '', delay: 1.15 },
   { text: 'dev.availableForWork(); // true', color: 'text-accent-green', delay: 1.3 },
@@ -69,10 +69,10 @@ export default function Hero() {
           >
             <p className="text-accent-blue font-mono text-sm mb-2">$ Hola, mundo!</p>
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
-              Soy <span className="text-accent-blue-bright">Tu Nombre</span>
+              Soy <span className="text-accent-blue-bright">Rodrigo</span>
             </h1>
             <p className="text-lg text-text-secondary mb-6">
-              Full-Stack Developer apasionado por crear experiencias digitales únicas.
+              <strong>Full-Stack Developer</strong> apasionado por crear experiencias digitales únicas.
             </p>
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
               <a

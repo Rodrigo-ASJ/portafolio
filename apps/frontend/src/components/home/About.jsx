@@ -38,12 +38,10 @@ export default function About() {
             {/* Bio */}
             <div className="flex-1 space-y-4">
               <p className="text-text-primary leading-relaxed">
-                Soy un desarrollador full-stack con experiencia en la creación de aplicaciones web modernas.
-                Me apasiona el diseño limpio, el código eficiente y resolver problemas complejos.
+                Soy un desarrollador Full-Stack con experiencia en la creación de aplicaciones web modernas. Me apasiona el diseño limpio, el código eficiente y resolver problemas complejos. Trabajo con tecnologías como React, Node.js, MongoDB y Tailwind CSS para construir productos digitales desde la idea hasta el despliegue.
               </p>
               <p className="text-text-secondary leading-relaxed">
-                Trabajo con tecnologías como React, Node.js, MongoDB, y Tailwind CSS para construir
-                productos digitales desde la idea hasta el despliegue.
+                Además, cuento con experiencia sólida en la gestión de HubSpot (CRM) y WordPress (CMS), combinando mis habilidades técnicas con mi pasión por el diseño gráfico para crear experiencias digitales visualmente atractivas y funcionales. Estoy siempre comprometido con el aprendizaje continuo y la evolución profesional en el desarrollo web.
               </p>
               <a
                 href="/cv.pdf"

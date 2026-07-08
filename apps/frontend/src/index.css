@@ -9,13 +9,14 @@
   --color-text-primary: #b1b1b3;
   --color-text-secondary: #737373;
   --color-text-muted: #5c5c5f;
-  --color-accent-blue: #45a1ff;
+  --color-accent-blue: #6DAFE9;
   --color-accent-blue-bright: #0a84ff;
-  --color-accent-green: #70bf53;
+  --color-accent-green: #86DE74;
   --color-accent-purple: #6b7abb;
   --color-accent-orange: #d96629;
   --color-accent-red: #eb5368;
   --color-accent-pink: #df80ff;
+  --color-accent-purple-bright: #B289F4;
   --color-selection: #1d4f73;
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
